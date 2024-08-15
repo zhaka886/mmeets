@@ -8,8 +8,6 @@ This is the **official repository** of the "I Mean I Am a Mouse:Mmeets for Bilin
 
 Multimodal image-text memes are widely used on social networks. Given their deep cultural and regional influences, understanding and analyzing these memes presents a range of challenges for high precision sentiment analysis, social network analysis, and understanding different user communities. However, existing analyses of multimodal memes have primarily focused on English-speaking communities and preliminary sentiment tasks such as harmful memes detection. In this paper, we focus on high-precision sentiment analysis in various contexts — the classification of sarcasm. Firstly, a new dataset for sarcasm classification of multimodal memes in both Chinese and English is introduced. Secondly, a framework named Mmeets is proposed, which utilizes Large Language Models (LLMs) for causal reasoning to achieve multimodal fusion and lightweight fine-tuning.Mmeets leverages a pre-trained AltCLIP vision-language model and the Abductive Reasoning with LLMs to effectively capture the multimodal semantic content of the memes.Our findings suggest that our Mmeets method outperforms state-of-the-art approaches in the task of sarcasm classification.
 
-
-
 xx
 
 ![](asset/mmeets_architecture.png "Architecture of the method")
@@ -48,14 +46,14 @@ wandb login
 ```
 
 ## Datasets
-We created the first categorical dataset of mockery and self-mockery in both Chinese and English.
+We created the first categorical dataset of mockery and self-mockery **BSMM** in both Chinese and English.
 
 - $BSMM_{Chinese}$ -Contains **1977** memes
 - $BSMM_{English}$- Contains **2306** memes
 
 
 ### Data Preparation
-Download the files in the [release](https://github.com/miccunifi/ISSUES/releases/tag/latest) and place the `resources` folder in the root folder:
+Download the files in the [release](https://drive.google.com/drive/folders/1mxkB7at2m12k3VyOIVT3cSnt_O-uwXcN?usp=drive_link) the `resources` folder in the root folder:
 
 <pre>
 project_base_path
