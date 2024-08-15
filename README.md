@@ -1,12 +1,12 @@
 ### I Mean I Am a Mouse:Mmeets for Bilingual Multimodal Meme Sarcasm Classification from Large Language Models
 
-This is the **official repository** of the "*I Mean I Am a Mouse:Mmeets for Bilingual Multimodal Meme Sarcasm Classification from Large Language Models*" (**Mmeets**).
+This is the **official repository** of the "I Mean I Am a Mouse:Mmeets for Bilingual Multimodal Meme Sarcasm Classification from Large Language Models" (**Mmeets**).
 
 ## Overview
 
 ### Abstract
 
-Multimodal image-text memes are widely used on social networks. Given their deep cultural and regional influences, understanding and analyzing these memes presents a range of challenges for highprecision sentiment analysis, social network analysis, and understanding different user communities. However, existing analyses of multimodal memes have primarily focused on English-speaking communities and preliminary sentiment tasks such as harmful memes detection. In this paper, we focus on high-precision sentiment analysis in various contexts — the classification of sarcasm. Firstly, a new dataset for sarcasm classification of multimodal memes in both Chinese and English is introduced. Secondly, a framework named Mmeets is proposed, which utilizes Large Language Models (LLMs) for causal reasoning to achieve multimodal fusion and lightweight fine-tuning.Mmeets leverages a pre-trained AltCLIP vision-language model and the Abductive Reasoning with LLMs to effectively capture the multimodal semantic content of the memes.Our findings suggest that our Mmeets method outperforms state-of-the-art approaches in the task of sarcasm classification.
+Multimodal image-text memes are widely used on social networks. Given their deep cultural and regional influences, understanding and analyzing these memes presents a range of challenges for high precision sentiment analysis, social network analysis, and understanding different user communities. However, existing analyses of multimodal memes have primarily focused on English-speaking communities and preliminary sentiment tasks such as harmful memes detection. In this paper, we focus on high-precision sentiment analysis in various contexts — the classification of sarcasm. Firstly, a new dataset for sarcasm classification of multimodal memes in both Chinese and English is introduced. Secondly, a framework named Mmeets is proposed, which utilizes Large Language Models (LLMs) for causal reasoning to achieve multimodal fusion and lightweight fine-tuning.Mmeets leverages a pre-trained AltCLIP vision-language model and the Abductive Reasoning with LLMs to effectively capture the multimodal semantic content of the memes.Our findings suggest that our Mmeets method outperforms state-of-the-art approaches in the task of sarcasm classification.
 
 ![mmeets architecture](asset\mmeets architecture.png)
 
