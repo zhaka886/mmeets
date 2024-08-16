@@ -50,7 +50,7 @@ We created the first categorical dataset of mockery and self-mockery **BSMM** in
 
 
 ### Data Preparation
-Download the files in the [release](https://drive.google.com/drive/folders/1mxkB7at2m12k3VyOIVT3cSnt_O-uwXcN?usp=drive_link) and place the the `resources` folder in the root folder:
+Download the files in the [release](https://drive.google.com/drive/folders/1mxkB7at2m12k3VyOIVT3cSnt_O-uwXcN?usp=drive_link) and place the `resources` folder in the root folder:
 
 <pre>
 project_base_path
